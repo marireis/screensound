@@ -1,4 +1,8 @@
 package com.marina.api_music.model;
 
-public class TipoArtista {
+public enum TipoArtista {
+    SOLO,
+    DUPLA,
+    BANDA;
+
 }
